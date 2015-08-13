@@ -7,7 +7,7 @@
   //create a bunch of divs
   for (var i = 1; i <= 63; i++) {
     if (i % 2 === 0) {
-      //red tiles
+    //red tiles
     redTile = document.createElement('div');
     redTile.style.backgroundColor = 'red';
     redTile.style.width = '11.1%';
