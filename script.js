@@ -9,13 +9,15 @@
 
   //create a bunch of divs
   for (var i = 1; i <= 63; i++) {
-    r += 10;
-    g += 10;
-    b += 10;
+    r += 3;
+    g += 3;
+    b += 3;
     color = 'rgb(' + r + ',' + g + ',' + b + ')';
 
+    console.log(color);
+
     gradientTile = document.createElement('div');
-    gradientTile.style.backgroundImage = color; //rgba(57, 194, 228, 1) - summer sky
+    gradientTile.style.backgroundColor = color; //rgba(57, 194, 228, 1) - summer sky
     gradientTile.style.width = '11.1%';
     gradientTile.style.float = 'left';
     gradientTile.style.paddingBottom = '11.1%';
