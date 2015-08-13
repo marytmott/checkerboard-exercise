@@ -7,6 +7,8 @@
   var b = 251;
   var color;
 
+  ////try: change alpha transparency and run the two color tiles..................
+
   //looks like it's just changing the blue color
 
 
