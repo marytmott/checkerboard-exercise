@@ -9,7 +9,6 @@
     var g;
     var b;
     var color;
-    var divTiles;
 
     document.body.innerHTML = '';
 
