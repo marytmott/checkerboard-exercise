@@ -7,11 +7,14 @@
   var b = 251;
   var color;
 
+  //looks like it's just changing the blue color
+
+
   //create a bunch of divs
   for (var i = 1; i <= 63; i++) {
     r += 3;
     g += 3;
-    b += 3;
+    b -= 3;
     color = 'rgb(' + r + ',' + g + ',' + b + ')';
 
     console.log(color);
